@@ -1,3 +1,8 @@
 namespace UpKeep.Core.Domain.Contracts;
 
-public interface IDomainEvent { }
+/// <summary>
+///     Marker interface for domain events in the domain-driven design context.
+/// </summary>
+public interface IDomainEvent
+{
+}
