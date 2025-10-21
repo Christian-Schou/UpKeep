@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{D112A624-0D80-4C43-A1A8-289063397F1E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{90FE1BC8-1C63-4677-A2CB-F87013549E1F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{B5FDBF45-AB5C-4D0C-92A3-80B87A016D11}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{405A323F-237C-48B1-B7CE-4ADEC6D51034}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpKeep.Core", "src\backend\framework\UpKeep.Core\UpKeep.Core.csproj", "{925B9785-7551-4482-81CC-D06A843FD368}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B5FDBF45-AB5C-4D0C-92A3-80B87A016D11} = {D112A624-0D80-4C43-A1A8-289063397F1E}
+		{405A323F-237C-48B1-B7CE-4ADEC6D51034} = {D112A624-0D80-4C43-A1A8-289063397F1E}
+		{925B9785-7551-4482-81CC-D06A843FD368} = {405A323F-237C-48B1-B7CE-4ADEC6D51034}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{925B9785-7551-4482-81CC-D06A843FD368}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{925B9785-7551-4482-81CC-D06A843FD368}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{925B9785-7551-4482-81CC-D06A843FD368}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{925B9785-7551-4482-81CC-D06A843FD368}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
