@@ -1,7 +1,8 @@
+using UpKeep.Core.Identity.Roles.DTOs;
 using UpKeep.Core.Identity.Roles.Features.CreateOrUpdateRole;
 using UpKeep.Core.Identity.Roles.Features.UpdatePermissions;
 
-namespace UpKeep.Core.Identity.Roles;
+namespace UpKeep.Core.Identity.Roles.Abstractions;
 
 /// <summary>
 ///     Service interface for managing roles and their permissions in the system.

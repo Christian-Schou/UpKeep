@@ -1,4 +1,4 @@
-namespace UpKeep.Core.Identity.Roles;
+namespace UpKeep.Core.Identity.Roles.DTOs;
 
 /// <summary>
 ///     Data transfer object representing a role and its associated permissions.
